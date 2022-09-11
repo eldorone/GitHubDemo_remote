@@ -10,8 +10,16 @@ import SwiftUI
 struct MainView: View {
         
     var body: some View {
-        Text("This is a test!")
-            .padding()
+        
+        ZStack {
+            
+            Color.red.ignoresSafeArea(.all)
+            
+            Text("This is a test!")
+                        .padding()
+        }
+        
+        
     }
 }
 
